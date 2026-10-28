@@ -1,0 +1,47 @@
+{
+  "gate": "PASS",
+  "runs": 3,
+  "physical_input_events": 2880000,
+  "accepted_identity_events": 2880000,
+  "results": [
+    {
+      "run": 2026125400,
+      "gate": "PASS",
+      "status": "OK",
+      "physical_input_events": 960000,
+      "accepted_identity_events": 960000,
+      "raw_sha256": "840f02d3cd6aa02d083209488c958c3698be9284cbf3fc6417751c4bcc33ce59",
+      "metadata_sha256": "bff6960af934412b52f649165272cdd290fe956a57b331af9150be85242aa347",
+      "metadata_encoded_bytes": 7109572,
+      "metadata_packets": 7500,
+      "metadata_records": 960000,
+      "source_meta_errors": 0
+    },
+    {
+      "run": 2026125401,
+      "gate": "PASS",
+      "status": "OK",
+      "physical_input_events": 960000,
+      "accepted_identity_events": 960000,
+      "raw_sha256": "827d680c65539cb409badb21e1b6bd29404744a4195cbdafa4cc6531741a91b1",
+      "metadata_sha256": "2bb7845b15168403a57109cc19174c07fb4822fa5a0c634f6e77550356d2cec4",
+      "metadata_encoded_bytes": 7109576,
+      "metadata_packets": 7500,
+      "metadata_records": 960000,
+      "source_meta_errors": 0
+    },
+    {
+      "run": 2026125402,
+      "gate": "PASS",
+      "status": "OK",
+      "physical_input_events": 960000,
+      "accepted_identity_events": 960000,
+      "raw_sha256": "745169f3bb5b70a2e925ebd2736c0826d407da248aac7a8aadcb4c9fc61bba20",
+      "metadata_sha256": "198bdd0ee0b01b59b29e8aa4f3727ec00a92326c1b2ed985412ac1d8634240c6",
+      "metadata_encoded_bytes": 7109548,
+      "metadata_packets": 7500,
+      "metadata_records": 960000,
+      "source_meta_errors": 0
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "gate": "PASS",
+  "formal_batches": 51,
+  "statuses": {
+    "OK": 42,
+    "META_INVALID": 9
+  },
+  "physical_input_events": 4896000,
+  "accepted_identity_events": 4824000,
+  "source_baud": 1000000,
+  "sample_hz_nominal": 5000000,
+  "sample_hz_estimated": null,
+  "comparisons": [
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 0,
+      "codec": 2,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 0,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 1,
+      "codec": 2,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 1,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 2,
+      "codec": 2,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 0,
+      "response_mode": 2,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 0,
+      "codec": 2,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 0,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 1,
+      "codec": 2,
+      "batches": 3,
+      "complete": 0
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 1,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 2,
+      "codec": 2,
+      "batches": 3,
+      "complete": 0
+    },
+    {
+      "input_jitter_samples": 20,
+      "response_mode": 2,
+      "codec": 3,
+      "batches": 3,
+      "complete": 3
+    }
+  ],
+  "maximum_metadata": {
+    "raw_bytes": 19200000,
+    "encoded_payload_bytes": 7109548,
+    "binary_headers_bytes": 360000,
+    "binary_total_bytes": 7469548,
+    "packets": 7500,
+    "duration_seconds_nominal": 120
+  },
+  "scope": "controlled wired, alternating 121/129us average 8k, deterministic 20..50us response, literal IDs; nominal clocks, finite runs, no radio or accuracy claim"
+}
